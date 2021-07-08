@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Template</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<script src="scripts/main.js" defer></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+	<center>
+		<div class = "parent">
+		<h1>Welcome Onboard</h1>
+		<br>
+		<img src="images/astronaut.jpg" alt="astronaut" width=60% height=60%>
+
+	</center>
+<div class = "allboxes">
+<div class = "food">
+
+	<p>Check Food Supply:</p>
+
+	<input type="text" placeholder="Type no. of meals left ..." id="meal_input_num">
+	<button type="button" onclick="getInputValue()">Enter</button>
+	<br>
+	<br>
+	<label id="cookie1" style="color: white"/> days left<br>
+</div>
+
+<div class = "dist">
+
+	<p>Total Distance Travelled:</p>
+
+	<input type="text" placeholder="Type today's distance..." id="distance_input_num">
+	<button type="button" onclick="totalDistance();">Add</button>
+	<button type="button" onclick="clearStorage();" id="clear">Clear</button><br>
+	<br>
+	<label id="distance" style="color: white"/> miles<br>
+</div>
+<div class = "grav">
+  <label for="planets"><p>View Gravity on:</p></label>
+  <select name="planets" id="planets" onchange="getGravityInfo()">
+    <option value="earth">Earth</option>
+    <option value="mars">Mars</option>
+  </select>
+  <br>
+	<br>
+  <label id="gravity" style="color: white"/>m/s² 
+</div>
+</div>
+</div>
+<center>
+<div class="elonMusk">
+		<p>
+<br>
+<br>
+Good Morning! Ladies and Gentlemen.<br>
+Welcome onboard this journey to Mars.<br>
+<br>
+My name is Elon Musk, the founder and CEO of SpaceX.<br>
+Your AI cabin crew are here to ensure you have an enjoyable flight.<br>
+In a few moment, we'll be screening a safety Video about this aircraft.<br>
+<br>
+We require that you give us your careful attention.<br>
+<br>
+Enjoy your flight.<br>
+<br>
+<img src="images/elon_sign.png" alt="elonsign" width=25% height=25%>
+<br>
+<br>
+<br>
+</p><br>
+
+</div>
+</center>
+	</body>
+</html>

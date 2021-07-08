@@ -1,0 +1,65 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	
+ 	 background: url(../images/space2.jpg);
+ 	 background-color: black;
+  	 background-repeat: no-repeat;
+ 	 background-size: cover;
+ 	 font-family: 'Quantico', sans-serif;
+ 	 color: white;
+
+}
+
+h1{
+	background-color: #18191a;
+	padding: 10px;
+}
+
+.food{
+	background-color: #18191a;
+	display: table;
+	padding: 20px;
+	  width: 20%;
+
+	
+
+	
+}
+
+.dist{
+	background-color: #18191a;
+	display: table;
+	padding: 20px;
+	width: 20%;
+
+}
+
+.grav{
+		background-color: #18191a;
+	display: table;
+	padding: 20px;
+	width: 15%;
+
+}
+
+.allboxes{
+	 display: flex;
+  flex-direction:row;
+
+  width: 100%;
+  padding: 50px;
+  margin-left: 15%;
+ 
+}
+
+.elonMusk p{
+	background-color: #18191a;
+	margin: auto;
+
+}
+
